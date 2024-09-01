@@ -7,15 +7,15 @@
 - Release training code (9.1.2024)
 
 ## Environment
-Environment for our project depends on PTI(https://github.com/danielroich/PTI).
+Environment for our project depends on [PTI](https://github.com/danielroich/PTI).
 
 ## How to train StyleNormal
 
 ### A. Dataset preparation
-1. Purchase and download 3D human models from 3DScanstore(https://3dscanstore.com/).
+1. Purchase and download 3D human models from [3DScanstore](https://3dscanstore.com/).
 2. Render textured 3D human models under 5 environment light and their surface normal maps using the included Blender file from 3DScanStore.
-3. Follow the instruction from PTI inversion (https://github.com/danielroich/PTI)  and apply PTI inversion on rendered 3D human models.
-4. Apply semantic face segmenation (https://github.com/zllrunning/face-parsing.PyTorch) to obtain facial masks on valid region.
+3. Follow the instruction from [PTI inversion](https://github.com/danielroich/PTI)  and apply PTI inversion on rendered 3D human models.
+4. Apply [semantic face segmenation](https://github.com/zllrunning/face-parsing.PyTorch) to obtain facial masks on valid region.
 
 ### B. Run training
 1. Before running training code, please check whether your dataset preparation is perfect.
@@ -30,10 +30,10 @@ Environment for our project depends on PTI(https://github.com/danielroich/PTI).
 🏷️ StyleGAN PTI inversion: https://github.com/danielroich/PTI
 
 ### Testing
-🏷️ Normal-to-depth: https://github.com/xucao-42/bilateral_normal_integration
-🏷️ Non-rigid template registration: https://github.com/ycjungSubhuman/density-adaptation
-🏷️ Semantic face segmentation: https://github.com/zllrunning/face-parsing.PyTorch
-🏷️ Landmark detection: https://github.com/DefTruth/torchlm
+🏷️ Normal-to-depth: https://github.com/xucao-42/bilateral_normal_integration  
+🏷️ Non-rigid template registration: https://github.com/ycjungSubhuman/density-adaptation  
+🏷️ Semantic face segmentation: https://github.com/zllrunning/face-parsing.PyTorch  
+🏷️ Landmark detection: https://github.com/DefTruth/torchlm  
 
 ## License
 - This repository for training code is protected under the same license as the official StyleGAN implementation (https://github.com/NVlabs/stylegan2-ada-pytorch.git).
