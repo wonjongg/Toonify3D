@@ -21,8 +21,7 @@ Environment for our project depends on [PTI](https://github.com/danielroich/PTI)
 1. Before running training code, please check whether your dataset preparation is perfect.
 2. You should have (1) inverted latent codes of rendered images (2) surface normal images aligned with rendered images (3) inverted model weights for rendered images (4) valid region masks.
 3. Please check L112-124 of "train.py" and fill in proper paths for the prepared dataset. In this step, you need to check "dataset.py".
-4. Run train.py:
-> python train.py
+4. Run train.py
 
 ## Externals
 
