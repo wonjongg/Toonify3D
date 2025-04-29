@@ -1,4 +1,5 @@
 # Toonify3D
+[SIGGRAPH 2024] Official implementation of "Toonify3D: StyleGAN-based 3D Stylized Face Generator"
 [[Paper]](http://wonjongg.me/assets/pdf/Toonify3D.pdf) [[Project page]](http://wonjongg.me/Toonify3D_pages)
 
 ![teaser](./assets/teaser.png)
